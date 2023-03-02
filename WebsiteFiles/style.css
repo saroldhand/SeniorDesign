@@ -1,0 +1,73 @@
+/* Style for the header bar */
+header {
+  background-color: #3498DB;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+  display: flex; /* adds flex display */
+  align-items: center; /* aligns vertically */
+}
+
+/* Style for the navigation bar */
+nav {
+  margin-left: auto; /* moves nav to the right side */
+}
+
+.nav-buttons {
+  background-color: #1B4F72;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 0px; /* removes border radius */
+  border: none; /* removes button border */
+  margin: 0px; /* removes margin */
+}
+
+/* Style for the main content area */
+section {
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Style for the entire page */
+body {
+  background-color: #D6EAF8;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Style for the image */
+img {
+  display: block;
+  margin: auto;
+  max-width: 40%;
+}
+
+/* Style for p headings */
+p{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: larger;
+}
+
+/* Style for h1 headings */
+section h1 {
+  font-size: 55px;  
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+/* Style for h2 headings */
+section h2 {
+  font-size: x-large;  
+  margin-bottom: 15px;
+  margin-top: 45px;
+}
+
+/* Style for h3 headings */
+section h3 {
+  margin: 4px;
+}
