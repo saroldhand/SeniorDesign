@@ -6,6 +6,7 @@
   </head>
   <body>
     <header>
+      <img src="photos/UC_logo-125.png" alt="Smart Garden Simulation">
       <h1>Smart Garden Solution</h1>
       <nav>
         <a href="index.html" class="nav-buttons">Project Overview</a>
@@ -16,11 +17,22 @@
     
     <section>
       <h2>Plant Statistics</h2>
-      <p>Here's a graph of the plant data:</p>
-      <canvas id="myChart"></canvas>
+      <h3>Below are the graphs of the plant data:</h3>
+      <h4>Soil Moisture</h4>
+      <canvas id="canvas"></canvas>
+      <h4>Temperature</h4>
+      <canvas id="canvas2"></canvas>
+      <h4>Humidity</h4>
+      <canvas id="canvas3"></canvas>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="scripts.js"></script>
+    <script src="moistureScripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="tempScripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="humidScripts.js"></script>
   </body>
 </html>
